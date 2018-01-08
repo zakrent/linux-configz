@@ -1,6 +1,7 @@
 [global_config]
   tab_position = hidden
 [keybindings]
+  help = <Shift>F12
 [layouts]
   [[default]]
     [[[child1]]]
