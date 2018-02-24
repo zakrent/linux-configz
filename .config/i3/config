@@ -131,6 +131,9 @@ exec xss-lock -- i3lock
 exec firefox
 exec steam-runtime
 exec thunderbird
+exec ~/.scripts/battery.sh
+
+
 bindsym XF86AudioRaiseVolume exec amixer set Master 5%+
 bindsym XF86AudioLowerVolume exec amixer set Master 5%-
 bindsym XF86AudioMute exec amixer set Master toggle
