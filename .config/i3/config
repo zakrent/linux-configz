@@ -66,12 +66,12 @@ bindsym $mod+a focus parent
 
 # focus the child container
 #bindsym $mod+d focus child
-assign [class="QupZilla"] 1 QupZilla
+assign [class="Falkon"] 1 Falkon
 assign [class="Steam"] 9 Steam
 assign [class="Thunderbird"] 10 Thunderbird
 
 # switch to workspace
-bindsym $mod+1 workspace 1 QupZilla
+bindsym $mod+1 workspace 1 Falkon
 bindsym $mod+2 workspace 2
 bindsym $mod+3 workspace 3
 bindsym $mod+4 workspace 4
@@ -83,7 +83,7 @@ bindsym $mod+9 workspace 9 Steam
 bindsym $mod+0 workspace 10 Thunderbird
 
 # move focused container to workspace
-bindsym $mod+Shift+1 move container to workspace 1 QupZilla
+bindsym $mod+Shift+1 move container to workspace 1 Falkon
 bindsym $mod+Shift+2 move container to workspace 2
 bindsym $mod+Shift+3 move container to workspace 3
 bindsym $mod+Shift+4 move container to workspace 4
@@ -128,7 +128,7 @@ bar {
 bindsym $mod+x exec "i3lock -f"
 
 exec xss-lock -- i3lock
-exec qupzilla
+exec falkon
 exec steam-runtime
 exec thunderbird
 exec ~/.scripts/battery.sh
