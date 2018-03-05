@@ -142,6 +142,7 @@ bindsym XF86MonBrightnessDown exec light -Up 5
 bindsym XF86MonBrightnessUp exec light -Ap 5
 bindsym $mod+c exec i3-sensible-terminal -e ranger
 bindsym $moc+z exec systemctl hibernate
+bindsym $mod+b exec ~/.scripts/battery-now.sh
 
 bindsym --release Num_Lock exec pkill -SIGRTMIN+11 i3blocks
 bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
